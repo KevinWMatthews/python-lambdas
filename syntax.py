@@ -31,7 +31,6 @@ def accepts_lambda(function_object):
 
 accepts_lambda(lambda x: x)
 
-
 # Two arguments
 def accepts_lambda(function_object):
     return function_object(41, 1)
